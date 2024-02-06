@@ -59,7 +59,9 @@ img {
 }
 
   /* ==============header============== */
-
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
   .container-header {
     display: flex;
     align-items: center;
@@ -70,7 +72,6 @@ img {
     justify-content: space-between;
     flex-grow: 1;
     align-items: center;
-    gap: 76px;
     margin-right: 332px;
   }
 
@@ -98,6 +99,7 @@ img {
     color: #4D5AE5;
     padding-top: 24px;
     padding-bottom: 24px;
+    margin-right: 76px;
         }
 
     .studio {
@@ -168,7 +170,8 @@ img {
     letter-spacing: 0.04em;
     text-align: center;
     cursor: pointer;
-    width: 169px;
+    min-width: 169px;
+    height: 56px;
     padding: 16px 32px;
     border-radius: 4px;
     margin-left: auto;
@@ -229,7 +232,8 @@ img {
 }
 
 .team-item-text {
-padding: 32px 16px;
+padding-top: 32px;
+padding-bottom: 32px;
 }
 
 .team-item {
@@ -254,6 +258,7 @@ padding: 32px 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-unit-text {
@@ -289,8 +294,7 @@ row-gap: 48px;
 }
 
 .portfolio-item-text {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 32px 16px;
     border-left: 1px solid #E7E9FC;
     border-right: 1px solid #E7E9FC;
     border-bottom: 1px solid #E7E9FC;
@@ -301,14 +305,13 @@ row-gap: 48px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.02em;
-    padding-left: 16px;
+    margin-bottom: 8px;
 }
 
     .portfolio-unit-text {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    padding-left: 16px;
 }
 /* =================================================================================================== */
 /* ======================================================footer======================================= */
@@ -319,7 +322,6 @@ row-gap: 48px;
     padding-bottom: 100px;
 }
 .footer-text {
-    margin-top: 16px;
     color: #F4F4FD;
     font-size: 16px;
     line-height: 24px;
@@ -333,8 +335,10 @@ row-gap: 48px;
 }
 
 footer .logo-link {
+    display:inline-block;
     padding-top: 0;
     padding-bottom: 0;
+    margin-bottom: 16px;
 }
 
 
